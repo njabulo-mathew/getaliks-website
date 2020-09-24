@@ -379,9 +379,6 @@ footer {
 /*---Menu btn---*/
 .menu-btn {
     cursor: pointer;
-    /* position: sticky;
-    top: 2rem;
-    right: 2rem; */
     z-index: 10;
     display: none;
 }
@@ -419,12 +416,12 @@ footer {
         top: 0;
         left: 0;
         background: var(--secondary-color);
-        width: 100%;
+        width: 80%;
         height: 100vh;
         border-right: 1px solid #cccccc;
         opacity: 0.9;
         padding: 30px;
-        transform: translateX(-500px);
+        transform: translateX(-1000px);
         transition: transform 0.5s ease-in-out;
     }
 
