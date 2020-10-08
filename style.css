@@ -500,8 +500,17 @@ footer {
 @media screen and (max-width: 500px) {
   html {
     font-size: 50%;
+    width: 100vw;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
+
+  /*---home---*/
+
+  .btn {
+    width: 200px;
+  }
+
   /*---services---*/
   
 }
